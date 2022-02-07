@@ -1,7 +1,7 @@
 *{
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background-color: aqua;
+  
 }
 .App{
   /* background: aqua; */
@@ -29,6 +29,36 @@
 
 .card-group{
   display: flex;
-  background-color: aqua;
-  margin: 15px 0 15px 0;
+  margin: 45px auto;
+  /* width: 470px; */
+  width: 570px;
+}
+.card-image{
+  width: 125px;
+  height: 168px;
+  margin-right: 19px;
+}
+.card-text{
+  /* align-items: center; */
+  height: 158px;
+}
+.top-text{
+  font-size: 10.24px;
+}
+.location-icon{
+  margin-right: 6px;
+}
+.links{
+  margin-left: 10px;
+  text-decoration: underline;
+  color: grey;
+}
+.location{
+  margin-top: 8px ;
+  margin-bottom: 18px;
+}
+.description{
+  width: 326px;
+  margin-top: 7px;
+  font-size: 10.24px;
 }
