@@ -14,7 +14,6 @@ export default function Cards(props) {
                 <h1 className='location'>{props.item.location}</h1>
                 <b className='date'>{props.item.startDate} - {props.item.endDate} </b>
                 <p className='description'>{props.item.description}</p>
-
           </div>
   </div>;
 }
